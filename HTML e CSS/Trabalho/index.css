@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    margin-top: 25px;
+    width: 100vw;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: blue;
+}
+
+.imagem {
+    width: 90px;
+    height: 90px;
+}
+
+.image img, .image2 img {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: auto;
+    display: block;
+}
+
+.centro {
+    margin: 25px auto;
+    width: 100%;
+}
+
+.tabela {
+    background-color: blue;
+    color: yellow;
+    text-align: center;
+    width: 100%;
+}
+
+.escola {
+    background-color: navy;
+    color: white;
+    text-align: center;
+}
+
+.curso {
+    background-color: darkturquoise;
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.materia {
+    background-color: lightblue;
+    color: blue;
+    text-align: center;
+}
+
+.link {
+    background-color: darkturquoise;
+    color: blue;
+    text-align: center;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.form {
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+.tb2 {
+    text-align: left;
+    width: 30%;
+}
+
+.ol {
+    display: inline-block;
+    text-align: left;
+}
+
+
+
