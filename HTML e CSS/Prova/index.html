@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova</title>
+
+    <style>
+
+.imagem {
+    width: 90px;
+    height: 90px;
+}
+
+.image img, .image2 img {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: auto;
+    display: block;
+}
+
+.centro {
+    margin: 25px auto;
+    width: 100%;
+}
+
+.tabela {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.faixa {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: 25px auto;
+}
+
+.prod {
+    background-color: white;
+    color: blue;
+    text-align: center;
+    border-style: solid;
+    border-color: blue;
+}
+
+.form {
+    text-align: left;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.tb2 {
+    text-align: left;
+    width: 30%;
+}
+
+.tb3 {
+    text-align: center;
+    width: 30%;
+}
+
+.ol {
+    display: inline-block;
+    text-align: left;
+}
+
+.borda {
+    border-style: solid;
+    border-color: blue;
+}
+    </style>
+</head>
+
+<body>
+    <table class="centro borda" border="1">
+        <tr>
+            <td class="tabela" colspan="6">
+                <h2>PROVA 1°Bimestre 2023</h2>
+            </td>
+        </tr>
+    
+        <tr class="faixa borda">
+            <th colspan="6">Pedido de Venda</th>
+        </tr>
+
+        <tr class="prod">
+            <td><h3>Pizza</h3></td>
+            <td><h3>Qtde</h3></td>
+            <td><h3>Refrigerante</h3></td>
+            <td><h3>Qtde</h3></td>
+        </tr>
+
+        <tr class="tb2" colspan="6">
+            <td>
+                <ol class="ol">
+                    <img class="imagem" src="calab.jpg"> 
+                <li>
+                    <img class="imagem" src="portu.jpg"> 
+                </li>
+                </ol>
+                <form class="form">
+                    <input type="radio" name="pizza" value="calabresa">Calabresa<br/>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <input type="radio" name="pizza" value="portuguesa">Portuguesa<br/>
+                    <br>
+                    <br>
+                <td class="tb3" colspan="6">
+                    <label for="caixa1"></label>
+                    <input type="text" name="caixa1">
+
+                    <select name="coca-cola">
+                        <option value="cocacola" selected>Coca-Cola</option>
+                        <option value="fanta">Fanta</option>
+                        <option value="guarana">Guaraná</option>
+                    </select>
+
+                    <label for="caixa2"></label>
+                    <input type="text" name="caixa2">
+                </td>
+                </form> 
+</body>
+</html>
