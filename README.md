@@ -1,4 +1,4 @@
-Exercícios de Faculdade desenvolvidos no primeiro semestre, contém:
+Exercícios de Faculdade desenvolvidos no segundo semestre, contém:
 
 - HTML
 - CSS
